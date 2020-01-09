@@ -31,7 +31,7 @@ const archiver = require('archiver');
 
 const archive = (folderName, onclose) => {
     const zipName = folderName + ".zip";
-    const source = path.join(__dirname, "public", folderName);
+    const source = path.join(__dirname,  folderName);
     const out = path.join(__dirname, "tmp", zipName);
 
     const archive = archiver('zip', { zlib: { level: 9 } });
