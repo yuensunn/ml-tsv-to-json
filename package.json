@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
+    "start": "node start.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,11 +17,5 @@
     "nexe": "^3.3.2",
     "pug": "^2.0.4",
     "uuid": "^3.3.3"
-  },
-  "pkg": {
-    "scripts": "start.js",
-    "targets": [
-      "node12"
-    ]
   }
 }
